@@ -4,7 +4,7 @@
   align-items: center;
   background-color: #ffffffec;
   border-radius: 20px;
-  padding: 2rem;
+  padding: 1.9rem;
   box-shadow: 0px 4px 15px rgb(0 0 0 / 12%);
 }
 
@@ -16,7 +16,7 @@
 }
 
 .card-logo:hover {
- transform: scale(1.1);
+  transform: scale(1.1);
   transition: all .50s ease;
   box-shadow: 0px 4px 15px rgba(255, 92, 214, 0.555);
 }
@@ -27,7 +27,7 @@
 }
 
 .card-contatos {
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .card-contatos a {
