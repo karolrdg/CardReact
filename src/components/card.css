@@ -4,7 +4,8 @@
   align-items: center;
   background-color: #ffffffec;
   border-radius: 20px;
-  padding: 1.9rem;
+  width: 50vw;
+  height: 33vh;
   box-shadow: 0px 4px 15px rgb(0 0 0 / 12%);
 }
 
@@ -27,8 +28,8 @@
 }
 
 .card-contatos {
-  margin-top: 20px;
-}
+  margin-top: 15px;
+ }
 
 .card-contatos a {
   margin-right: 20px;

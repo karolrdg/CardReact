@@ -9,7 +9,9 @@ function App() {
     idade: "XX", 
     foto: "https://avatars.githubusercontent.com/u/87062322?v=4", 
     github: "https://github.com/karolrdg", 
-    linkedin: "https://www.linkedin.com/" 
+    linkedin: "https://www.linkedin.com/" ,
+    whatsapp: "https://web.whatsapp.com/",
+    insta:"https://www.instagram.com/"
   }
 
   return (

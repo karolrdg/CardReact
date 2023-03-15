@@ -29,6 +29,24 @@ function Card({ usuario }) {
               title="Link para o LinkedIn"
             ></box-icon>
           </a>
+          <a href={usuario.whatsapp} target="_blank">
+            <box-icon
+              type="logo"
+              name="whatsapp"
+              color="#8dcdff"
+              size="md"
+              title="Link para o WhatsApp"
+            ></box-icon>
+          </a>
+          <a href={usuario.insta} target="_blank">
+            <box-icon
+              type="logo"
+              name="instagram"
+              color="#8dcdff"
+              size="md"
+              title="Link para o Instagram"
+            ></box-icon>
+          </a>
         </div>
       </div>
     </div>
