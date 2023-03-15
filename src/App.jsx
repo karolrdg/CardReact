@@ -6,7 +6,8 @@ function App() {
 
   const usuario = { 
     nome: "Karoline Rodrigues", 
-    idade: "XX", 
+    idade: "28", 
+    atividade: "Developer",
     foto: "https://avatars.githubusercontent.com/u/87062322?v=4", 
     github: "https://github.com/karolrdg", 
     linkedin: "https://www.linkedin.com/" ,

@@ -1,6 +1,5 @@
 import "./card.css";
 
-
 function Card({ usuario }) {
   return (
     <div className="card">
@@ -8,14 +7,15 @@ function Card({ usuario }) {
 
       <div className="card-dados">
         <h1>{usuario.nome}</h1>
-        <h2>Idade: {usuario.idade} anos</h2>
+        <h2> {usuario.idade} anos</h2>
+        <h2>{usuario.atividade}</h2>
 
         <div className="card-contatos">
           <a href={usuario.github} target="_blank">
             <box-icon
               type="logo"
               name="github"
-              color= "#8dcdff"
+              color="#8dcdff"
               size="md"
               title="Link para o GitHub"
             ></box-icon>
@@ -53,4 +53,4 @@ function Card({ usuario }) {
   );
 }
 
-export default Card
+export default Card;
