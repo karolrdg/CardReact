@@ -1,0 +1,23 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #ffc0cb;
+  background: rgb(255,192,203);
+  background: linear-gradient(90deg, rgba(255,192,203,0.5942752100840336) 16%, rgba(141,205,255,0.711922268907563) 50%, rgba(196,86,255,0.577468487394958) 84%);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
